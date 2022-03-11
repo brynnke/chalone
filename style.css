@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*apply styles to <header> */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,16 +49,17 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Hero Style Start */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: relative;
 }
-
+/* Hero Style End */
+/* Apply style to "content" section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -133,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* apply styles to "benefits" section */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,7 +188,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* apply styles to <footer> */
 .footer {
     padding: 30px;
     clear: both;
